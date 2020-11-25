@@ -93,6 +93,7 @@ const start = async (username, numberOfWOrds, debug) => {
   const { startWords, markovWords } = generateMarkovWords(tweetStream);
   if (debug) {
     console.log(markovWords);
+    console.log(tweetStream);
   }
   const output = generate(numberOfWOrds, startWords, markovWords);
   console.log(output);
