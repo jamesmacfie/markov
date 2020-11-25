@@ -92,4 +92,4 @@ const start = async (username, numberOfWOrds) => {
 	console.log(output);
 };
 
-start("jamesmacfie", 10);
+start("jethrocarr", 30);
